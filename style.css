@@ -1,0 +1,89 @@
+
+.mainContainer{
+  background-image: linear-gradient(to left top, #051937, #00436a, #00739c, #00a8c8, #12deeb);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.first{
+  padding-top: 150px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.newTask{
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+h1{
+  margin-bottom: 50px;
+  text-shadow: 2px 2px blue;
+}
+
+.add>i{
+  position: absolute;
+  top: 31%;
+  left:73%;
+  font-size: 50px;
+  color: blue;
+}
+
+.itemRow{
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: white;
+}
+
+ul li{
+  margin: 30px 30px;
+  position: relative;
+
+}
+
+ul{
+  position: absolute;
+  display: block;
+  list-style-type: none;
+  top:33%;
+  left:24%
+}
+
+li div span{
+  font-size: 25px;
+  position: absolute;
+  left: 10%;
+}
+
+.checkBox{
+  position:absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: grey;
+  opacity: 0.5;
+}
+input[type=checkbox]{
+  zoom:2;
+}
+
+.itemRow>i{
+  float: right;
+  margin-top: 5px;
+  font-size: 40px;
+  color: #072D93;
+
+}
